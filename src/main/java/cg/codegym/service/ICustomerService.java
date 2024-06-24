@@ -8,4 +8,5 @@ public interface ICustomerService {
     List<Customer> findAll() throws Exception;
 
     Customer findOne(Long id) throws Exception;
+    void save(Customer customer) throws Exception;
 }

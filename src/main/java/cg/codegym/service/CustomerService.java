@@ -20,4 +20,9 @@ public class CustomerService implements ICustomerService{
         }
         return customer;
     }
+
+    @Override
+    public void save(Customer customer) throws Exception {
+        throw new Exception("co loi");
+    }
 }
